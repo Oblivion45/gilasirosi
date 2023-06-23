@@ -53,7 +53,7 @@ const SearchResult = () => {
     <View style={styles.background}>
       <ScrollView>
         <View style={styles.container}>
-          <Text style={styles.produk}>Hasil Pencarian untuk</Text>
+          <Text style={styles.produk}>Hasil Pencarian untuk "{searchkey}"</Text>
           {searchData.map((val, index) => (
             <View key={index}>
               <View style={styles.cardflex}>
